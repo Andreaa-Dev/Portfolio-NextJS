@@ -36,13 +36,13 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Self-learning",
+    location: "Udemy online",
+    description: " some description",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
+
   {
     title: "Front-End Developer",
     location: "Helsinki, Finland",
@@ -64,30 +64,26 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Dior Website",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    description: "an e-commerce",
+    tags: ["React", "Redux", "MongoDB"],
     imageUrl: dior,
   },
   {
     title: "Helsinki Bike",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    description: "bike",
+    tags: ["React", "TypeScript", "Redux", "Express", "MongoBD"],
     imageUrl: bike,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "E-commerce",
+    description: "angular",
+    tags: ["Angular", "NgRx"],
     imageUrl: cloth,
   },
   {
     title: "Meal ",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    description: "vue",
+    tags: ["Vue"],
     imageUrl: meal,
   },
 ] as const;
