@@ -2,6 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { RiGatsbyLine } from "react-icons/ri";
+import { FaCode } from "react-icons/fa6";
+
 import dior from "../images/dior.png";
 import bike from "../images/bike.png";
 import cloth from "../images/cloth.png";
@@ -36,22 +39,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Self-learning",
-    location: "Udemy online",
-    description: " some description",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-
-  {
-    title: "Front-End Developer",
-    location: "Helsinki, Finland",
-    description:
-      "I worked as a front-end developer for almost a year. My main task is to take over the maintenance of the restaurant's website by re-design and update the site content. I build the blog page for the site using Gatsby with static rendering. ",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021",
-  },
-  {
     title: "Full-Stack Developer",
     location: "Helsinki, Finland",
     description:
@@ -59,24 +46,64 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
+  {
+    title: "Front-End Developer",
+    location: "Helsinki, Finland",
+    description:
+      "I worked as a front-end developer for almost a year. My main task is to take over the maintenance of the restaurant's website by re-design and update the site content. I build the blog page for the site using Gatsby with static rendering. ",
+    icon: React.createElement(RiGatsbyLine),
+    date: "2021",
+  },
+  {
+    title: "Self-learning",
+    location: "Udemy online",
+    description: " some description",
+    icon: React.createElement(FaCode),
+    date: "2019",
+  },
 ] as const;
 
 export const projectsData = [
   {
     title: "Dior Website",
     description: "an e-commerce",
-    tags: ["React", "Redux", "MongoDB"],
+    tags: [
+      "React",
+      "Redux",
+      "MUI",
+      "Express",
+      "MongoDB",
+      "Stripe",
+      "SendGrid",
+      "JWT",
+      "Jest",
+      "Docker ",
+    ],
     imageUrl: dior,
   },
   {
     title: "Helsinki Bike",
     description: "bike",
-    tags: ["React", "TypeScript", "Redux", "Express", "MongoBD"],
+    tags: [
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "MUI",
+      "Express",
+      "MongoBD",
+      "Redis",
+      "MapBox",
+      "Formik and Yup",
+      "Github Action",
+      "Docker ",
+      "Jest",
+    ],
     imageUrl: bike,
   },
   {
     title: "E-commerce",
-    description: "angular",
+    description:
+      "An e-commerce website using Angular. The user can register/log in, add products to wishlist and buy product. The additional features are searching product by name, sorting by price and alphabet ",
     tags: ["Angular", "NgRx"],
     imageUrl: cloth,
   },
