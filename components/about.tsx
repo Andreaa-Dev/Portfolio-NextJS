@@ -22,16 +22,13 @@ export default function About() {
         After graduating with a degree in{" "}
         <span className="font-medium">Environmental Engineering </span>, I tried
         out some courses in Udemy and found it very interesting. That how I
-        start the coding journey
-        <span className="font-medium">full-stack web development</span>.{" "}
+        start the coding journey of
+        <span className="font-medium"> full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript. I am always looking to learn new
+        is <span className="font-medium">React, Node.js, and MongoDB</span>. I
+        am also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.

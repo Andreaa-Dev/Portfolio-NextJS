@@ -66,51 +66,30 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Dior Website",
-    description: "an e-commerce",
-    tags: [
-      "React",
-      "Redux",
-      "MUI",
-      "Express",
-      "MongoDB",
-      "Stripe",
-      "SendGrid",
-      "JWT",
-      "Jest",
-      "Docker ",
-    ],
+    description:
+      "Fullstack Dior-inspired app with user authentication (Google OAuth), seamless cosmetics product checkout, order placement, and password reset via email confirmation using Sendgrid. ",
+    tags: ["React", "Express", "MongoDB", "Stripe", "Jest", "Docker"],
     imageUrl: dior,
   },
   {
     title: "Helsinki Bike",
-    description: "bike",
-    tags: [
-      "React",
-      "TypeScript",
-      "Redux Toolkit",
-      "MUI",
-      "Express",
-      "MongoBD",
-      "Redis",
-      "MapBox",
-      "Formik and Yup",
-      "Github Action",
-      "Docker ",
-      "Jest",
-    ],
+    description:
+      "Full-stack app for exploring Helsinki bike stations and journeys via map view. Utilizes MongoDB with Bash scripting for CSV data import, employing pagination for millions of rows.",
+    tags: ["React", "Redis", "MapBox", "Github Action", "Docker "],
     imageUrl: bike,
   },
   {
     title: "E-commerce",
     description:
       "An e-commerce website using Angular. The user can register/log in, add products to wishlist and buy product. The additional features are searching product by name, sorting by price and alphabet ",
-    tags: ["Angular", "NgRx"],
+    tags: ["Angular", "NgRx", "Tailwind"],
     imageUrl: cloth,
   },
   {
-    title: "Meal ",
-    description: "vue",
-    tags: ["Vue"],
+    title: "Meal Receipts ",
+    description:
+      "A front-end project showcasing meal receipts, allowing users to search and filter by both name and ingredients",
+    tags: ["Vue", "Tailwind"],
     imageUrl: meal,
   },
 ] as const;

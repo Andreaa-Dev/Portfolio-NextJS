@@ -739,6 +739,12 @@ video {
 .max-w-\[53rem\] {
   max-width: 53rem;
 }
+.max-w-\[47rem\] {
+  max-width: 47rem;
+}
+.max-w-\[46rem\] {
+  max-width: 46rem;
+}
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1350,6 +1356,22 @@ html.dark {
     max-width: 50%;
   }
 
+  .sm\:max-w-\[70\%\] {
+    max-width: 70%;
+  }
+
+  .sm\:max-w-\[60\%\] {
+    max-width: 60%;
+  }
+
+  .sm\:max-w-\[55\%\] {
+    max-width: 55%;
+  }
+
+  .sm\:max-w-\[57\%\] {
+    max-width: 57%;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1398,6 +1420,10 @@ html.dark {
 
   .group:nth-child(even) .sm\:group-even\:ml-\[18rem\] {
     margin-left: 18rem;
+  }
+
+  .group:nth-child(even) .sm\:group-even\:ml-\[20rem\] {
+    margin-left: 20rem;
   }
 
   .group:nth-child(even) .sm\:group-even\:pl-8 {
