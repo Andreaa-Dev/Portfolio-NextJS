@@ -57,7 +57,8 @@ export const experiencesData = [
   {
     title: "Self-learning",
     location: "Udemy online",
-    description: " some description",
+    description:
+      "I took some courses in Udemy coving web development: HTML, CSS, JavaScript and React",
     icon: React.createElement(FaCode),
     date: "2019",
   },
