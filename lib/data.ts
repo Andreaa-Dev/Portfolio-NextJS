@@ -9,6 +9,7 @@ import dior from "../images/dior.png";
 import bike from "../images/bike.png";
 import cloth from "../images/cloth.png";
 import meal from "../images/meal.png";
+import fee from "../images/fee.png";
 
 export const links = [
   {
@@ -66,6 +67,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Helsinki Bike",
+    description:
+      "Full-stack app for exploring Helsinki bike stations and journeys via map view. Utilizes MongoDB with Bash scripting for CSV data import, employing pagination for millions of rows.",
+    tags: ["React", "Redis", "MapBox", "Github Action", "Docker "],
+    imageUrl: bike,
+    githubLink: "https://github.com/Andreaa-Dev/Helsinki-bike",
+  },
+  {
     title: "Dior Website",
     description:
       "Fullstack Dior-inspired app with user authentication (Google OAuth), seamless cosmetics product checkout, order placement, and password reset via email confirmation using Sendgrid. ",
@@ -74,12 +83,12 @@ export const projectsData = [
     githubLink: "https://github.com/Andreaa-Dev/Fullstack-Ecommerce",
   },
   {
-    title: "Helsinki Bike",
+    title: "Delivery calculation fee ",
     description:
-      "Full-stack app for exploring Helsinki bike stations and journeys via map view. Utilizes MongoDB with Bash scripting for CSV data import, employing pagination for millions of rows.",
-    tags: ["React", "Redis", "MapBox", "Github Action", "Docker "],
-    imageUrl: bike,
-    githubLink: "https://github.com/Andreaa-Dev/Helsinki-bike",
+      "The application is a calculation form where the user can enter information of the order and get the delivery fee.",
+    tags: ["React", "Formik", "Yup", "Jest"],
+    imageUrl: fee,
+    githubLink: "https://github.com/Andreaa-Dev/Delivery-fee-calculation",
   },
   {
     title: "E-commerce",
