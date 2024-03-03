@@ -71,6 +71,7 @@ export const projectsData = [
       "Fullstack Dior-inspired app with user authentication (Google OAuth), seamless cosmetics product checkout, order placement, and password reset via email confirmation using Sendgrid. ",
     tags: ["React", "Express", "MongoDB", "Stripe", "Jest", "Docker"],
     imageUrl: dior,
+    githubLink: "https://github.com/Andreaa-Dev/Fullstack-Ecommerce",
   },
   {
     title: "Helsinki Bike",
@@ -78,6 +79,7 @@ export const projectsData = [
       "Full-stack app for exploring Helsinki bike stations and journeys via map view. Utilizes MongoDB with Bash scripting for CSV data import, employing pagination for millions of rows.",
     tags: ["React", "Redis", "MapBox", "Github Action", "Docker "],
     imageUrl: bike,
+    githubLink: "https://github.com/Andreaa-Dev/Helsinki-bike",
   },
   {
     title: "E-commerce",
@@ -85,6 +87,7 @@ export const projectsData = [
       "An e-commerce website using Angular. The user can register/log in, add products to wishlist and buy product. The additional features are searching product by name, sorting by price and alphabet ",
     tags: ["Angular", "NgRx", "Tailwind"],
     imageUrl: cloth,
+    githubLink: "https://github.com/Andreaa-Dev/ecommerce-angular",
   },
   {
     title: "Meal Receipts ",
@@ -92,6 +95,7 @@ export const projectsData = [
       "A front-end project showcasing meal receipts, allowing users to search and filter by both name and ingredients",
     tags: ["Vue", "Tailwind"],
     imageUrl: meal,
+    githubLink: "https://github.com/Andreaa-Dev/meal-ts",
   },
 ] as const;
 

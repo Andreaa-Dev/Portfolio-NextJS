@@ -27,8 +27,11 @@ export default function About() {
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React, Node.js, and MongoDB</span>. I
-        am also familiar with TypeScript. I am always looking to learn new
+        is{" "}
+        <span className="font-medium">
+          React, Node.js,MongoDB and PostgreSQL
+        </span>
+        . I am also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
@@ -36,9 +39,9 @@ export default function About() {
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        billiard, watching movies, and playing with my dog. I also enjoy{" "}
+        billiard, watching movies, and playing with my Frenchie. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning <span className="font-medium">Java</span>
+        learning <span className="font-medium">Cloud and Java</span>
       </p>
     </motion.section>
   );
