@@ -10,6 +10,7 @@ import bike from "../images/bike.png";
 import cloth from "../images/cloth.png";
 import meal from "../images/meal.png";
 import fee from "../images/fee.png";
+import csharf from "../images/csharf.jpg";
 
 export const links = [
   {
@@ -67,6 +68,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "C# Backend",
+    description: "A server-side application using C# integrated authentication mechanisms to build robust APIs with secure endpoints",
+    tags: ["C#", ".NET Core "],
+    imageUrl: csharf,
+    githubLink: "https://github.com/Andreaa-Dev/Helsinki-bike",
+  },
+  {
     title: "Helsinki Bike",
     description:
       "Full-stack app for exploring Helsinki bike stations and journeys via map view. Utilizes MongoDB with Bash scripting for CSV data import, employing pagination for millions of rows.",
@@ -111,6 +119,8 @@ export const projectsData = [
 export const skillsData = [
   "TypeScript",
   "JavaScript",
+  "C#",
+  "Java",
   "React",
   "Angular",
   "Next.js",
@@ -124,8 +134,7 @@ export const skillsData = [
   "GitHub Action",
   "Bash",
   "Figma",
-  "HTML",
-  "CSS",
+  "HTML, CSS",
   "SASS",
   "Git",
 ] as const;
